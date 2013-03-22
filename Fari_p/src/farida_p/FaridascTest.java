@@ -13,6 +13,6 @@ public class FaridascTest extends Faridasc {
 		boolean comp = x != y;
 		System.out.print(comp);
 	}
-}
+
 
 }
