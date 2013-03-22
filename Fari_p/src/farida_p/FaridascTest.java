@@ -14,4 +14,5 @@ public class FaridascTest extends Faridasc {
 		System.out.print(comp);
 	}
 
+
 }
