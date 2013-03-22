@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<project name="Fari_p" basedir=".">
+    <target name="main" depends="compile, compress" description="Main target">
+        <echo>
+            Building the .jar file.
+        </echo>
+    </target>
+  
+    <target name="compile" description="Compilation target">
+        <javac srcdir="Fari_p"/>
+    </target>
+  
+  <target name="compress" description="Compression target">
+        <jar jarfile="Project.jar" basedir="Fari_p" includes="*.class" />
+</target>
+</project>
