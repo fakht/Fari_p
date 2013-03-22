@@ -9,7 +9,7 @@ public class FaridascTest extends Faridasc {
 	
 	@Test
 	public void testMain() {
-		int x=9,y=9;
+		int x=11,y=9;
 		boolean comp = x != y;
 		System.out.print(comp);
 	}
